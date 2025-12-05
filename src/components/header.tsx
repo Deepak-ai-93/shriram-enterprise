@@ -90,7 +90,7 @@ export default function Header() {
             </SheetTrigger>
             <SheetContent side="left">
               <SheetHeader>
-                <SheetTitle>Menu</SheetTitle>
+                <SheetTitle className='sr-only'>Menu</SheetTitle>
               </SheetHeader>
               <div className="flex h-full flex-col">
                 <div className="flex items-center justify-between border-b pb-4">

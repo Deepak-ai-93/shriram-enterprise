@@ -4,7 +4,7 @@ import { Star } from 'lucide-react';
 
 const testimonials = [
   {
-    quote: "The quality and speed of the automatic machine from Shriram Prints has transformed our business. Our production has doubled!",
+    quote: "The quality and speed of the automatic machine from Shriram Machinery has transformed our business. Our production has doubled!",
     name: 'Rohan Sharma',
     title: 'Owner, Creative Tees',
     avatar: 'RS',

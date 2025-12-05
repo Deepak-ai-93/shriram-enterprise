@@ -8,7 +8,7 @@ const features = [
   },
   {
     icon: <Printer className="h-10 w-10 text-primary" />,
-    title: 'Precision Printing',
+    title: 'Precision Manufacturing',
     description: 'Achieve crisp, vibrant, and consistent prints every time with our advanced printing technology.',
   },
   {
@@ -28,7 +28,7 @@ export default function Features() {
     <section id="features" className="py-12 md:py-24">
       <div className="container">
         <div className="text-center space-y-4 mb-12">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-headline">Why Choose Shriram Prints?</h2>
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-headline">Why Choose Shriram Machinery?</h2>
           <p className="max-w-[700px] mx-auto text-muted-foreground md:text-lg">
             We are committed to providing you with technology that drives growth and quality.
           </p>

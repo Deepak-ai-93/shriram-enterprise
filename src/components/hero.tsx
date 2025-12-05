@@ -11,10 +11,10 @@ export default function Hero() {
       <div className="flex flex-col justify-center space-y-6">
         <div className="space-y-4">
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none font-headline">
-            Revolutionize Your Print Business
+            Revolutionize Your Manufacturing Business
           </h1>
           <p className="max-w-[600px] text-muted-foreground md:text-xl">
-            Discover our state-of-the-art T-shirt printing machines, engineered for quality, speed, and reliability. Elevate your production today.
+            Discover our state-of-the-art T-shirt manufacturing machines, engineered for quality, speed, and reliability. Elevate your production today.
           </p>
         </div>
         <div className="flex flex-col gap-2 min-[400px]:flex-row">

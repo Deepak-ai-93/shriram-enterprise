@@ -19,8 +19,10 @@ const ScrollAnimationWrapper: React.FC<ScrollAnimationWrapperProps> = ({ childre
   useEffect(() => {
     const element = sectionRef.current;
     if (element) {
+      // Set initial state
       gsap.set(element, { opacity: 0, y: 50 });
 
+      // Create animation
       gsap.to(element, {
           opacity: 1,
           y: 0,
@@ -28,8 +30,8 @@ const ScrollAnimationWrapper: React.FC<ScrollAnimationWrapperProps> = ({ childre
           ease: 'power3.out',
           scrollTrigger: {
             trigger: element,
-            start: 'top 90%',
-            toggleActions: 'play none none reverse',
+            start: 'top 90%', // Trigger animation when top of the element is 90% from the top of the viewport
+            toggleActions: 'play none none reverse', // Play animation on enter, reverse on leave
           },
         }
       );

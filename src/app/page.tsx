@@ -6,6 +6,7 @@ import Testimonials from '@/components/testimonials';
 import Footer from '@/components/footer';
 import ScrollAnimationWrapper from '@/components/scroll-animation-wrapper';
 import AllProducts from '@/components/all-products';
+import { Toaster } from '@/components/ui/toaster';
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
         </ScrollAnimationWrapper>
       </main>
       <Footer />
+      <Toaster />
     </div>
   );
 }

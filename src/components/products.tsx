@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
+import { GetQuoteModal } from './get-quote-modal';
 
 const products = [
   {
@@ -85,7 +86,9 @@ export default function Products() {
                   </ul>
                   <div className="mt-6">
                     <p className="text-2xl font-bold mb-4">{product.price}</p>
-                    <Button className="w-full" variant="outline">View Details</Button>
+                    <GetQuoteModal productName={product.name}>
+                      <Button className="w-full" variant="outline">View Details</Button>
+                    </GetQuoteModal>
                   </div>
                 </CardContent>
               </Card>

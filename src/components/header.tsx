@@ -23,10 +23,10 @@ import {
   CollapsibleContent,
   CollapsibleTrigger,
 } from '@/components/ui/collapsible';
+import { GetQuoteModal } from '@/components/get-quote-modal';
 
 const navLinks = [
   { href: '#home', label: 'Home' },
-  { href: '#products', label: 'Featured Products' },
   { href: '#features', label: 'Features' },
   { href: '#contact', label: 'Contact' },
 ];
@@ -59,9 +59,12 @@ export default function Header() {
           ))}
           <DropdownMenu>
             <DropdownMenuTrigger className="flex items-center gap-1 text-sm font-medium text-muted-foreground transition-colors hover:text-primary focus:outline-none">
-              All Products <ChevronDown className="h-4 w-4" />
+              Products <ChevronDown className="h-4 w-4" />
             </DropdownMenuTrigger>
             <DropdownMenuContent>
+               <DropdownMenuItem asChild>
+                  <Link href="#products">Featured Products</Link>
+                </DropdownMenuItem>
               {productCategories.map((category) => (
                 <DropdownMenuItem key={category.title} asChild>
                   <Link href="#all-products">{category.title}</Link>
@@ -71,9 +74,11 @@ export default function Header() {
           </DropdownMenu>
         </nav>
         <div className="hidden items-center gap-4 md:flex">
-          <Button className="hover:bg-accent hover:text-accent-foreground">
-            Get Quote
-          </Button>
+            <GetQuoteModal>
+              <Button className="hover:bg-accent hover:text-accent-foreground">
+                Get Quote
+              </Button>
+            </GetQuoteModal>
         </div>
         <div className="md:hidden">
           <Sheet open={isOpen} onOpenChange={setIsOpen}>
@@ -85,7 +90,7 @@ export default function Header() {
             </SheetTrigger>
             <SheetContent side="left">
               <SheetHeader>
-                <SheetTitle className="sr-only">Menu</SheetTitle>
+                <SheetTitle>Menu</SheetTitle>
               </SheetHeader>
               <div className="flex h-full flex-col">
                 <div className="flex items-center justify-between border-b pb-4">
@@ -111,10 +116,17 @@ export default function Header() {
                   ))}
                   <Collapsible>
                     <CollapsibleTrigger className="flex w-full items-center justify-between text-lg font-medium">
-                      All Products <ChevronDown className="h-5 w-5" />
+                      Products <ChevronDown className="h-5 w-5" />
                     </CollapsibleTrigger>
                     <CollapsibleContent>
                       <div className="mt-2 flex flex-col gap-2 pl-4">
+                        <Link
+                            href="#products"
+                            className="text-base text-muted-foreground"
+                            onClick={() => setIsOpen(false)}
+                          >
+                            Featured Products
+                          </Link>
                         {productCategories.map((category) => (
                           <Link
                             key={category.title}
@@ -130,9 +142,11 @@ export default function Header() {
                   </Collapsible>
                 </nav>
                 <div className="mt-auto">
-                  <Button className="w-full hover:bg-accent hover:text-accent-foreground">
-                    Get Quote
-                  </Button>
+                    <GetQuoteModal>
+                        <Button className="w-full hover:bg-accent hover:text-accent-foreground">
+                            Get Quote
+                        </Button>
+                    </GetQuoteModal>
                 </div>
               </div>
             </SheetContent>

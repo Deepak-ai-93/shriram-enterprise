@@ -5,6 +5,7 @@ import Features from '@/components/features';
 import Testimonials from '@/components/testimonials';
 import Footer from '@/components/footer';
 import ScrollAnimationWrapper from '@/components/scroll-animation-wrapper';
+import AllProducts from '@/components/all-products';
 
 export default function Home() {
   return (
@@ -16,6 +17,9 @@ export default function Home() {
         </ScrollAnimationWrapper>
         <ScrollAnimationWrapper>
           <Products />
+        </ScrollAnimationWrapper>
+        <ScrollAnimationWrapper>
+          <AllProducts />
         </ScrollAnimationWrapper>
         <ScrollAnimationWrapper>
           <Features />

@@ -8,16 +8,16 @@ export default function Hero() {
 
   return (
     <section className="container grid lg:grid-cols-2 gap-12 items-center py-12 md:py-24 lg:py-32">
-      <div className="flex flex-col justify-center space-y-6">
+      <div className="flex flex-col justify-center space-y-6 text-center lg:text-left">
         <div className="space-y-4">
           <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none font-headline">
             Revolutionize Your Manufacturing Business
           </h1>
-          <p className="max-w-[600px] text-muted-foreground md:text-xl">
+          <p className="max-w-[600px] text-muted-foreground md:text-xl mx-auto lg:mx-0">
             Discover our state-of-the-art T-shirt manufacturing machines, engineered for quality, speed, and reliability. Elevate your production today.
           </p>
         </div>
-        <div className="flex flex-col gap-2 min-[400px]:flex-row">
+        <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center lg:justify-start">
           <Button size="lg" asChild className="hover:bg-accent hover:text-accent-foreground">
             <Link href="#products">Explore Machines</Link>
           </Button>

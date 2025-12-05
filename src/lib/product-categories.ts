@@ -1,0 +1,23 @@
+export const productCategories = [
+  { title: 'Printing Ink', imageId: 'printing-ink' },
+  { title: 'Vinyl Films', imageId: 'vinyl-films' },
+  { title: 'Adhesive Tapes', imageId: 'adhesive-tapes' },
+  { title: 'Screen Printable Adhesive', imageId: 'screen-printable-adhesive' },
+  { title: 'Screen Printing Frames', imageId: 'screen-printing-frames' },
+  { title: 'Screen Printing Reducer', imageId: 'screen-printing-reducer' },
+  { title: 'Lint Free Wipes', imageId: 'lint-free-wipes' },
+  { title: 'Screen Printing Machines', imageId: 'screen-printing-machines' },
+  { title: 'Screen Printing Squeegee', imageId: 'screen-printing-squeegee' },
+  { title: 'Polyester Labels', imageId: 'polyester-labels' },
+  { title: 'Screen Printing Emulsion', imageId: 'screen-printing-emulsion' },
+  { title: 'Polycarbonate Film', imageId: 'polycarbonate-film' },
+  {
+    title: 'Screen Mesh Tension Check Meter',
+    imageId: 'tension-meter',
+  },
+  { title: 'Screen Making Services', imageId: 'screen-making-services' },
+  { title: 'Polycarbonate Sheets', imageId: 'polycarbonate-sheets' },
+  { title: 'Screen Printing Mesh', imageId: 'screen-printing-mesh' },
+  { title: 'Screen Cleaning Cloth', imageId: 'screen-cleaning-cloth' },
+  { title: 'Non Tearable Synthetic Paper', imageId: 'synthetic-paper' },
+];

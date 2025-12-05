@@ -29,6 +29,108 @@
       "description": "Bottles of colorful screen printing ink.",
       "imageUrl": "https://images.unsplash.com/photo-1617053312185-3c13745c993c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxwcmludGluZyUyMGluayUyMGJvdHRsZXN8ZW58MHx8fHwxNzY1MTEzODU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
       "imageHint": "printing ink"
+    },
+    {
+      "id": "vinyl-films",
+      "description": "Rolls of colorful vinyl film for printing.",
+      "imageUrl": "https://images.unsplash.com/photo-1675176785849-71f5614bd7b3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx2aW55bCUyMHJvbGxzfGVufDB8fHx8MTc2NDkyNjIzMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "vinyl rolls"
+    },
+    {
+      "id": "adhesive-tapes",
+      "description": "Several rolls of industrial adhesive tapes.",
+      "imageUrl": "https://images.unsplash.com/photo-1760377821917-722e631cd716?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxhZGhlc2l2ZSUyMHRhcGV8ZW58MHx8fHwxNzY0OTI2MjMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "adhesive tape"
+    },
+    {
+      "id": "screen-printable-adhesive",
+      "description": "A container of screen printable adhesive.",
+      "imageUrl": "https://images.unsplash.com/photo-1594813591867-02e797aa4581?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxhZGhlc2l2ZSUyMGNvbnRhaW5lcnxlbnwwfHx8fDE3NjQ5MjYyMzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "adhesive container"
+    },
+    {
+      "id": "screen-printing-frames",
+      "description": "Aluminum frames for screen printing.",
+      "imageUrl": "https://images.unsplash.com/photo-1618691490633-5e1b5265428c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwcmludGluZyUyMGZyYW1lc3xlbnwwfHx8fDE3NjQ5MjYyMzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "printing frames"
+    },
+    {
+      "id": "screen-printing-reducer",
+      "description": "A bottle of screen printing reducer solvent.",
+      "imageUrl": "https://images.unsplash.com/photo-1722532254518-89016ba75a15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxzb2x2ZW50JTIwYm90dGxlfGVufDB8fHx8MTc2NDkyNjIzMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "solvent bottle"
+    },
+    {
+      "id": "lint-free-wipes",
+      "description": "A pack of lint-free wipes for cleaning.",
+      "imageUrl": "https://images.unsplash.com/photo-1734599397715-f030c6d206a0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxjbGVhbmluZyUyMHdpcGVzfGVufDB8fHx8MTc2NDkyNjIzMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "cleaning wipes"
+    },
+    {
+      "id": "screen-printing-machines",
+      "description": "A professional screen printing machine.",
+      "imageUrl": "https://images.unsplash.com/photo-1414357809080-e19d8f805245?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwcmludGluZyUyMG1hY2hpbmV8ZW58MHx8fHwxNzY0OTI0NDQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "printing machine"
+    },
+    {
+      "id": "screen-printing-squeegee",
+      "description": "A squeegee used for screen printing.",
+      "imageUrl": "https://images.unsplash.com/photo-1630327722923-5ebd594ddda9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwcmludGluZyUyMHNxdWVlZ2VlfGVufDB8fHx8MTc2NDkyNjIzMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "printing squeegee"
+    },
+    {
+      "id": "polyester-labels",
+      "description": "A roll of polyester labels.",
+      "imageUrl": "https://images.unsplash.com/photo-1678615236690-904d1b5c4577?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxsYWJlbCUyMHJvbGx8ZW58MHx8fHwxNzY0OTI2MjMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "label roll"
+    },
+    {
+      "id": "screen-printing-emulsion",
+      "description": "A bucket of screen printing photo emulsion.",
+      "imageUrl": "https://images.unsplash.com/photo-1673297821205-e0575bbc2ab7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwaG90byUyMGVtdWxzaW9ufGVufDB8fHx8MTc2NDkyNjIzMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "photo emulsion"
+    },
+    {
+      "id": "polycarbonate-film",
+      "description": "A sheet of clear polycarbonate film.",
+      "imageUrl": "https://images.unsplash.com/photo-1596972811652-11d30aa10342?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxwb2x5Y2FyYm9uYXRlJTIwZmlsbXxlbnwwfHx8fDE3NjQ5MjYyMzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "polycarbonate film"
+    },
+    {
+      "id": "tension-meter",
+      "description": "A tension meter for checking screen mesh.",
+      "imageUrl": "https://images.unsplash.com/photo-1509889804986-b739ca046bd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8dGVuc2lvbiUyMG1ldGVyfGVufDB8fHx8MTc2NDkyNjIzMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "tension meter"
+    },
+    {
+      "id": "screen-making-services",
+      "description": "A person preparing a screen for printing.",
+      "imageUrl": "https://images.unsplash.com/photo-1761311983700-b7e324c18c5f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxzY3JlZW4lMjBwcmVwYXJhdGlvbnxlbnwwfHx8fDE3NjQ5MjYyMzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "screen preparation"
+    },
+    {
+      "id": "polycarbonate-sheets",
+      "description": "A stack of polycarbonate sheets.",
+      "imageUrl": "https://images.unsplash.com/photo-1718587608491-f40ae3b13273?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwb2x5Y2FyYm9uYXRlJTIwc2hlZXRzfGVufDB8fHx8MTc2NDkyNjIzMXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "polycarbonate sheets"
+    },
+    {
+      "id": "screen-printing-mesh",
+      "description": "A close-up of screen printing mesh.",
+      "imageUrl": "https://images.unsplash.com/photo-1586939735437-d61392bd039b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxwcmludGluZyUyMG1lc2h8ZW58MHx8fHwxNzY0OTI2MjMxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "printing mesh"
+    },
+    {
+      "id": "screen-cleaning-cloth",
+      "description": "A microfiber cloth for cleaning screens.",
+      "imageUrl": "https://images.unsplash.com/photo-1648735257013-2fb9604b15c6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxtaWNyb2ZpYmVyJTIwY2xvdGh8ZW58MHx8fHwxNzY0ODQ3NzQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "microfiber cloth"
+    },
+    {
+      "id": "synthetic-paper",
+      "description": "A roll of non-tearable synthetic paper.",
+      "imageUrl": "https://images.unsplash.com/photo-1686806372785-fcfe9efa9b70?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxzeW50aGV0aWMlMjBwYXBlcnxlbnwwfHx8fDE3NjQ5MjYyMzF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "synthetic paper"
     }
   ]
 }

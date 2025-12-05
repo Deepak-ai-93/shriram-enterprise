@@ -4,28 +4,24 @@ import Image from 'next/image';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 const productCategories = [
-    {
-        title: 'Printing Ink',
-        items: ['Sunglo Trouble Free Screen Ink', 'Sunrays Screen Printing Inks', 'Union Plastisol Metal Printing Ink', 'Sericol Printing Inks'],
-        imageId: 'printing-ink',
-    },
-    { title: 'Vinyl Films', items: [] },
-    { title: 'Adhesive Tapes', items: [] },
-    { title: 'Screen Printable Adhesive', items: [] },
-    { title: 'Screen Printing Frames', items: [] },
-    { title: 'Screen Printing Reducer', items: [] },
-    { title: 'Lint Free Wipes', items: [] },
-    { title: 'Screen Printing Machines', items: [] },
-    { title: 'Screen Printing Squeegee', items: [] },
-    { title: 'Polyester Labels', items: [] },
-    { title: 'Screen Printing Emulsion', items: [] },
-    { title: 'Polycarbonate Film', items: [] },
-    { title: 'Screen Mesh Tension Check Meter', items: [] },
-    { title: 'Screen Making Services', items: [] },
-    { title: 'Polycarbonate Sheets', items: [] },
-    { title: 'Screen Printing Mesh', items: [] },
-    { title: 'Screen Cleaning Cloth', items: [] },
-    { title: 'Non Tearable Synthetic Paper', items: [] },
+    { title: 'Printing Ink', items: [], imageId: 'printing-ink' },
+    { title: 'Vinyl Films', items: [], imageId: 'vinyl-films' },
+    { title: 'Adhesive Tapes', items: [], imageId: 'adhesive-tapes' },
+    { title: 'Screen Printable Adhesive', items: [], imageId: 'screen-printable-adhesive' },
+    { title: 'Screen Printing Frames', items: [], imageId: 'screen-printing-frames' },
+    { title: 'Screen Printing Reducer', items: [], imageId: 'screen-printing-reducer' },
+    { title: 'Lint Free Wipes', items: [], imageId: 'lint-free-wipes' },
+    { title: 'Screen Printing Machines', items: [], imageId: 'screen-printing-machines' },
+    { title: 'Screen Printing Squeegee', items: [], imageId: 'screen-printing-squeegee' },
+    { title: 'Polyester Labels', items: [], imageId: 'polyester-labels' },
+    { title: 'Screen Printing Emulsion', items: [], imageId: 'screen-printing-emulsion' },
+    { title: 'Polycarbonate Film', items: [], imageId: 'polycarbonate-film' },
+    { title: 'Screen Mesh Tension Check Meter', items: [], imageId: 'tension-meter' },
+    { title: 'Screen Making Services', items: [], imageId: 'screen-making-services' },
+    { title: 'Polycarbonate Sheets', items: [], imageId: 'polycarbonate-sheets' },
+    { title: 'Screen Printing Mesh', items: [], imageId: 'screen-printing-mesh' },
+    { title: 'Screen Cleaning Cloth', items: [], imageId: 'screen-cleaning-cloth' },
+    { title: 'Non Tearable Synthetic Paper', items: [], imageId: 'synthetic-paper' },
 ];
 
 export default function AllProducts() {
@@ -46,7 +42,7 @@ export default function AllProducts() {
                         return (
                             <Card key={category.title} className="shadow-lg hover:shadow-xl transition-shadow duration-300 flex flex-col">
                                 <CardHeader className="p-0">
-                                    {image ? (
+                                    {image && (
                                         <div className="relative aspect-video overflow-hidden rounded-t-lg">
                                             <Image
                                                 src={image.imageUrl}
@@ -56,13 +52,13 @@ export default function AllProducts() {
                                                 data-ai-hint={image.imageHint}
                                             />
                                         </div>
-                                    ) : null}
-                                    <div className="p-6 pb-0">
+                                    )}
+                                    <div className="p-6">
                                         <CardTitle className="font-headline text-xl">{category.title}</CardTitle>
                                     </div>
                                 </CardHeader>
-                                <CardContent className="p-6 flex-grow">
-                                    {category.items.length > 0 && !image ? (
+                                {category.items.length > 0 && (
+                                    <CardContent className="p-6 pt-0 flex-grow">
                                         <ul className="space-y-2 text-sm text-muted-foreground">
                                             {category.items.map((item) => (
                                                 <li key={item} className="flex items-start">
@@ -71,10 +67,8 @@ export default function AllProducts() {
                                                 </li>
                                             ))}
                                         </ul>
-                                    ) : (
-                                        !image && <div className="h-full"></div>
-                                    )}
-                                </CardContent>
+                                    </CardContent>
+                                )}
                             </Card>
                         )
                     })}

@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-machine",
+      "description": "A high-tech T-shirt printing machine in a modern workshop.",
+      "imageUrl": "https://images.unsplash.com/photo-1581508512961-0e3b9524db40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxwcmludGluZyUyMG1hY2hpbmV8ZW58MHx8fHwxNzY0OTI0NDQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "printing machine"
+    },
+    {
+      "id": "manual-station",
+      "description": "The Bharat Suzi Manual 4-Station T-shirt printing machine.",
+      "imageUrl": "https://images.unsplash.com/photo-1654788830403-156128f12718?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxtYW51YWwlMjBtYWNoaW5lfGVufDB8fHx8MTc2NDkyNTc4NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "manual machine"
+    },
+    {
+      "id": "high-speed-auto",
+      "description": "A high-speed automatic T-shirt printing machine in operation.",
+      "imageUrl": "https://images.unsplash.com/photo-1708618900217-a82bb87bffc2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YXV0b21hdGljJTIwbWFjaGluZXxlbnwwfHx8fDE3NjQ5MjU3ODR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "automatic machine"
+    },
+    {
+      "id": "heat-press",
+      "description": "An entry-level heat press machine for T-shirts.",
+      "imageUrl": "https://images.unsplash.com/photo-1710285467769-b5a71dfcd429?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxoZWF0JTIwcHJlc3N8ZW58MHx8fHwxNzY0OTI0NDQ1fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "heat press"
+    }
+  ]
 }

@@ -28,7 +28,7 @@ export default function Features() {
     <section id="features" className="py-12 md:py-24">
       <div className="container">
         <div className="text-center space-y-4 mb-12">
-          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-headline">Why Choose Shriram Machinery?</h2>
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl font-headline">Why Choose Shriram Enterprises?</h2>
           <p className="max-w-[700px] mx-auto text-muted-foreground md:text-lg">
             We are committed to providing you with technology that drives growth and quality.
           </p>

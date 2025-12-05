@@ -88,6 +88,6 @@
 
 @layer components {
   .container {
-    @apply px-4 md:px-6 lg:px-8;
+    @apply w-full mx-auto px-4 md:px-6 lg:px-8;
   }
 }
